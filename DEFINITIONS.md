@@ -130,3 +130,23 @@ Mesmo com esses apps, o aplicativo tem três diferenciais claros:
 1. **Simplicidade (PWA):** A maioria dos concorrentes são apps nativos pesados. Ser um PWA é uma vantagem enorme. É instalável, leve e não exige uma App Store. Um idoso ou alguém não-técnico pode simplesmente adicionar à tela inicial a partir de um link.
 2. **Foco no Grupo (Muitos-para-Muitos):** O "Snug" é focado no indivíduo (um-para-muitos). Sua ideia é focada no **grupo**, onde _qualquer um_ pode pedir um "check" a _qualquer outro_ a qualquer momento. Isso o torna muito mais flexível para os casos de uso de amigos, saúde mental e segurança pessoal.
 3. **Custo Zero:** Por ser um projeto livre e gratuito, você remove a barreira de entrada que muitos apps de segurança (especialmente os B2B) possuem.
+
+## Tarefas
+
+Perfeito. Inicialmente vamos construir um aplicativo com as seguintes features:
+
+- Autenticação com conta google;
+- Um o mais grupos de 2 ou mais pessoas cada grupo;
+- Espaço de tempo máximo de 24 horas entre as confirmação;
+- Push notification lembrando sobre a confirmação;
+- Um botão de confirmação no próprio push notification (Sem precisar abrir o aplicativo);
+
+E futuramente:
+
+- Solicitar a confirmação de um usuário de forma extraordinário ou para reformar um lembrete de confirmação do usuário (limitar a quantidade de confirmações que poderão ser enviadas por pessoa);
+- Avisar via push notification pessoas ou grupo inteiro quando houver a confirmação (ou não houver a confirmação até o tempo máximo) de determinada pessoa ou do grupo inteiro;
+- Cadastro e alteração de senha em configurações depois de logado;
+- Autenticação com Facebook e Instagram;
+- Possibilitar mudança nas configurações dos grupos:
+  - Alterar o intervalo de tempo entre as confirmações;
+  - Enviar sms ou e-mail em caso de confimação ou não confirmação de determinada pessoa ou grupo de pessoas em um determinado espaço de tempo;
