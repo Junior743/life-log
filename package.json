@@ -10,7 +10,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "supabase:login": "npx supabase login",
+    "supabase:gen-types": "npx supabase gen types typescript --project-id pmtewlqrlehnlfbmoyip > src/types/supabase.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.7.0",
@@ -27,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
+    "supabase": "^2.58.5",
     "typescript": "^5"
   }
 }
